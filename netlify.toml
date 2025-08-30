@@ -1,6 +1,6 @@
 [build]
   publish = "build/web"
-  command = "flutter build web"
+  command = "echo 'Using pre-built Flutter web files'"
 
 [build.environment]
   FLUTTER_WEB = "true"
